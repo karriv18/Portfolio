@@ -14,8 +14,10 @@ const Hero = () => {
     return (
         <div className='hero'>
             {/* <img src={profile_img} alt="" /> */}
-            {/* Pending animation */}
-            <h1>I'm <span> {text} </span><span><Cursor /></span></h1>
+            <h1>
+                I'm <span> {text} </span>
+                <span><Cursor /></span>
+            </h1>
             <p>A dedicated <span>Software Developer</span> with a strong passion for turning complex ideas into efficient, scalable, and user-focused web solutions.</p>
             <div className='hero-action'>
                 <div className='hero-connect'>
